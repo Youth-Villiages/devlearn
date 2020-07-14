@@ -3,6 +3,7 @@
 ## Week One Focus
  - Visual Studio Code
  - Git && Github
+ - Markdown
  - Terminal
  - Kanban
  - Beginning HTML5 And CSS3
