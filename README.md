@@ -24,6 +24,7 @@ Over the course of twelve weeks we will be focusing on training the programmers 
 ## Team
 - [Jerome Hardaway](https://github.com/jeromehardaway) | Instructor
 - [Terrance Raper](https://github.com/terranceraper) | Web Development Coordinator
+- [Matthew Mauck](https://github.com/matthewmauck) | Senior Web Coordinator
 
 ### Week One Focus
  - Visual Studio Code
