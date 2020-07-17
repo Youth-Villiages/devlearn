@@ -23,7 +23,8 @@ Over the course of twelve weeks we will be focusing on training the programmers 
 
 ## Team
 - [Jerome Hardaway](https://github.com/jeromehardaway) | Instructor
-- [Terrance Raper](https://github.com/terranceraper) | Web Development Coordinator
+- [Terrance Raper](https://github.com/terranceraper) | Web Development Coordinator</br>
+    -Check out my [README](https://github.com/terranceraper/terranceraper.git)
 - [Matthew Mauck](https://github.com/matthewmauck) | Senior Web Coordinator
 
 ### Week One Focus
