@@ -43,6 +43,14 @@ The user story protocol is " As a ____, I want ____."
  - As a donor he wants a way to have it tie in with what he is already doing.
  - As a donor he is looking for opportunities for cross-brand pollination.
 
+ #### YV Color Pallette
+ - Red: #CF102E
+ - Teal: #004E5A
+ - Grey: #5A5B5D
+ - Black: #000000
+ - Off White: #f8f8f8
+ - Navy: #000050
+
 
 
 
