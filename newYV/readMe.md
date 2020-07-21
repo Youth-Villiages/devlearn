@@ -3,7 +3,7 @@
 ## User Profiles
 
 <div style="width: 50%; float: left">
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
  </div>
 <div style="width: 50%; float: left"> ### Leonard
  - 55 to 60 years of age
@@ -15,7 +15,7 @@
 </div>
 
 <div style="width: 50%; float: left">
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
  </div>
 ### Stacy
  - 32 to 45 years old
@@ -24,7 +24,7 @@
  - working from home, also prepping to home school
 </div>
 <div style="width: 50%; float: left">
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
  </div>
  
 ### Matt
