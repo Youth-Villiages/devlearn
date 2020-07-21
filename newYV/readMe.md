@@ -2,30 +2,28 @@
 
 ## User Profiles
 
-<div style="width: 50%; float: left">
+
  <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
- </div>
-<div style="width: 50%; float: left"> ### Leonard
+
+ ### Leonard
  - 55 to 60 years of age
  - Recently retired from corporate America
  - Has a cell phone and computer for facebook but rarely uses it.
  - disposable income due to good decisions is high.
  - Has a moral based giving "trigger"
  - Is a high risk person for COVID so either socially distanced events or virtual events.
-</div>
 
-<div style="width: 50%; float: left">
  <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
- </div>
+
 ### Stacy
  - 32 to 45 years old
  - Working Mother, Corporate America
  - Has relationships to mid and senior level coworkers as well as HR.
  - working from home, also prepping to home school
-</div>
-<div style="width: 50%; float: left">
+
+
  <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
- </div>
+
  
 ### Matt
  - 28 to 35 years old
