@@ -13,7 +13,7 @@
  - Has a moral based giving "trigger"
  - Is a high risk person for COVID so either socially distanced events or virtual events.
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
+ <img src="https://youthvillages.photoshelter.com/search/result/I0000et8UClB4G_8" width="300">
 
 ### Stacy
  - 32 to 45 years old
@@ -22,7 +22,7 @@
  - working from home, also prepping to home school
 
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
+ <img src="https://youthvillages.photoshelter.com/galleries/C0000I2YXHvwdbf0/G0000NXxqQWZMPhg/I0000hB2VFPDYr8Q/William-Van-Wyk-jpg" width="300">
 
  
 ### Matt
