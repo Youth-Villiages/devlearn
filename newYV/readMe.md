@@ -3,7 +3,8 @@
 ## User Profiles
 
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300" style="float: left"> 
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300"> 
+ 
  ### Leonard
  - 55 to 60 years of age
  - Recently retired from corporate America
