@@ -3,7 +3,7 @@
 ## User Profiles
 
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595311193/Leonard-Porter_iwu0f7.jpg" width="300" style="float: left">
 
  ### Leonard
  - 55 to 60 years of age
@@ -13,7 +13,7 @@
  - Has a moral based giving "trigger"
  - Is a high risk person for COVID so either socially distanced events or virtual events.
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595312308/Alicia_Jones_b1mq7k.jpg" width="300">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595312308/Alicia_Jones_b1mq7k.jpg" width="300" style="float: left">
 
 ### Stacy
  - 32 to 45 years old
@@ -22,7 +22,7 @@
  - working from home, also prepping to home school
 
 
- <img src="https://res.cloudinary.com/mmauck/image/upload/v1595312308/William_Van_Wyk_b3mu8o.jpg" width="300">
+ <img src="https://res.cloudinary.com/mmauck/image/upload/v1595312308/William_Van_Wyk_b3mu8o.jpg" width="300" style="float: left">
 
  
 ### Matt
