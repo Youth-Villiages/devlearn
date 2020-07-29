@@ -11,11 +11,58 @@
 body {
   background-color: var(--main-bg-color);
   font-family: "Roboto";
+  
+}
+
+.container {
+display: grid;
+grid-template-columns: 20vh 20vh 20vh 20vh;
+grid-template-rows: 25vw 25vw 25vw 25vw;
+}
+
+.intro {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.introimage {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-radius: 50%;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.dogs {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0; 
+  height: 100%;
+  width: auto;
+}
+
+#logo {
+    width: 200px;
+}
+
+nav {
+    height: 50px;
 }
 
 header {
-  background-color: var(--secondary-bg-color);
-  color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    
 }
 
 footer {
@@ -43,3 +90,4 @@ li {
 a {
   text-decoration: none;
 }
+
