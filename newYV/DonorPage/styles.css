@@ -11,6 +11,7 @@
 body {
   background-color: var(--main-bg-color);
   font-family: "Roboto";
+  margin: 0;
 }
 
 header {
@@ -48,7 +49,6 @@ a {
 /* Hamburger Menu*/
 
 .container {
-  padding: 20px 20px 20px 20px;
 }
 
 .menu-icon {
@@ -120,7 +120,16 @@ a {
 }
 
 #donor-form {
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #newsletter {
