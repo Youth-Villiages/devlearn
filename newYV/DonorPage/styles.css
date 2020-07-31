@@ -46,18 +46,26 @@ a {
   text-decoration: none;
 }
 
+
 h1 {
   margin-left: 5%;
 }
 
 /* Hamburger Menu*/
 
+
+
 .container {
+  padding: 20px 20px 20px 20px;
+  align-content: flex-end;
+
 }
 
 .menu-icon {
   display: flex;
   height: 55px;
+  place-items: center;
+  width: 50px;
   position: relative;
   cursor: pointer;
   flex-direction: column;
@@ -100,7 +108,9 @@ h1 {
 }
 
 .menu-icon .line-1 {
-  width: 35px;
+  width: 42px;
+  justify-self: end;
+  padding-top: 10px;
   margin-top: 10px;
 }
 
@@ -120,11 +130,13 @@ h1 {
   margin-right: auto;
   width: 100%;
 }
+
 .intro {
   padding-bottom: 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .donor-form {
   position: relative;
   top: 50%;
@@ -153,4 +165,25 @@ input {
 .donate-values {
   margin-top: 10px;
   border-bottom: 2px solid gray;
+  justify-self: end;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 35px;
+  justify-self: end;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#donor-form {
+  width: 100%;
 }
