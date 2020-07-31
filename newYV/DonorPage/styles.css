@@ -11,6 +11,7 @@
 body {
   background-color: var(--main-bg-color);
   font-family: "Roboto";
+  margin: 0;
 }
 
 header {
@@ -45,17 +46,25 @@ a {
   text-decoration: none;
 }
 
+
+h1 {
+  margin-left: 5%;
+}
+
 /* Hamburger Menu*/
+
+
 
 .container {
   padding: 20px 20px 20px 20px;
   align-content: flex-end;
+
 }
 
 .menu-icon {
   display: flex;
-  place-items: center;
   height: 55px;
+  place-items: center;
   width: 50px;
   position: relative;
   cursor: pointer;
@@ -65,9 +74,12 @@ a {
 .menu-icon>span {
   width: 50px;
   height: 3px;
+  margin-right: 20px;
   background: red;
   display: block;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-self: flex-end;
 }
 
 .menu-icon:hover span:nth-child(1) {
@@ -104,6 +116,55 @@ a {
 
 .menu-icon .line-2 {
   width: 35px;
+  margin-top: 10px;
+}
+
+.menu-icon .line {
+  width: 35px;
+  margin-top: 10px;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.intro {
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.donor-form {
+  position: relative;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+#newsletter {
+  font-family: "Roboto";
+  font-size: 12px;
+  display: flex-end;
+  display: inline-block;
+}
+
+#cardnumber {
+  font-family: "Roboto";
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.donate-values {
+  margin-top: 10px;
+  border-bottom: 2px solid gray;
   justify-self: end;
   padding-top: 10px;
   margin-top: 10px;

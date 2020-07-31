@@ -30,32 +30,59 @@
     <img src="https://yvstaging.wpengine.com/wp-content/uploads/2020/03/Staff-with-Youth-at-Dogwood-scaled.jpg" alt="Staff with youth at Dogwood" style="width: 75%">
   </div>
   <div class="container">
-    <h1></h1>
-    <p class="intro"></p>
-  <div id="donor-form">
-    <label for="Donation Options">Donation Options</label>
-    <select name="" id="">
-        <option value="">One Time Donation</option>
-        <option value="">Weekly Donation</option>
-        <option value="">Monthly Donation</option>
-        <option value="">Yearly Donation</option>
-    </select>
-    <div class="donate-values"></div>
-    <button>$25</button>
-    <button>$50</button>
-    <button>$75</button>
-    <button>$100</button>
-    <input type="text" id="custom" value="Custom">
+
+      <div class="hero-image">
+        <img class="main-image"
+          src="https://yvstaging.wpengine.com/wp-content/uploads/2020/03/Staff-with-Youth-at-Dogwood-scaled.jpg"
+          alt="Staff with youth at Dogwood">
+      </div>
+    <h1>Donate</h1>
+    <p class="intro">
+      I am Groot. We are Groot. I am Groot. We are Groot. We are Groot.
+
+      I am Groot. I am Groot. We are Groot. I am Groot. I am Groot.
+
+      I am Groot. I am Groot. We are Groot. I am Groot. We are Groot.
+
+    </p>
+
+  <div class="donor-form">
+    <div class="donate-values">
+      <button>$25</button>
+      <button>$50</button>
+      <button>$75</button>
+      <button>$100</button>
+      <input type="text" id="custom" value="Custom">
+    </div>
+
     <h2 class="contact-info">Contact Info</h2>
-    <input type="text">
-    <input type="text">
-    <input type="text">
+
+    <label for="fname">First, Last Name</label>
+    <input type="text" id="fname" name="fname">
+
+    <label for="pnumber">Phone Number</label>
+    <input type="tel" id="pnumber" name="pnumber">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
     <h2 class="payment-info">Payment Info</h2>
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <button></button>
-    <input type="checkbox" name="Sign Up For Monthly Newsletter" id="">
+
+    <label for="nameOncard">Name on card</label>
+    <input type="text" id="nameOncard" name="nameOncard">
+
+    <label for="cardNumber" id="cardnumber">Credit Card Number</label>
+    <input type="number" name="cardNumber">
+
+    <label for="expirationDate">Card Expiration Date</label>
+    <input type="date" id="expirationDate" name="expirationDate">
+
+    <input type="submit" value="Make Donation">
+
+    <input type="checkbox" name="Sign Up For Monthly Newsletter" id="newsletter">
+
+    <label for="Sign Up For Monthly Newsletter" id="newsletter">Sign Up For Monthly Newsletter</label>
+
     <div class="share">
       <h2>Share</h2>
       <button>Facebook</button>
@@ -69,7 +96,6 @@
   <footer>
     <p class="footer"></p>
     <span> &copy; Youth Villages: All Rights Reserved</span>
-    <input type="email" name="Fill In Newsletter" id="">
     <div class="sitemap">
       <h4>SiteMap</h4>
       <ul>
@@ -85,6 +111,6 @@
     <a href="http://">Reddit</a>
   </footer>
 </div>
-  <script src="index.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
