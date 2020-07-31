@@ -46,6 +46,10 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin-left: 5%;
+}
+
 /* Hamburger Menu*/
 
 .container {
@@ -57,15 +61,17 @@ a {
   position: relative;
   cursor: pointer;
   flex-direction: column;
-  align-content: flex-end;
 }
 
 .menu-icon>span {
   width: 50px;
   height: 3px;
+  margin-right: 20px;
   background: red;
   display: block;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-self: flex-end;
 }
 
 .menu-icon:hover span:nth-child(1) {
@@ -115,15 +121,18 @@ a {
   width: 100%;
 }
 .intro {
-  padding-bottom: 10%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .donor-form {
   position: relative;
   top: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-left: 5%;
 }
 
 #newsletter {
@@ -133,9 +142,13 @@ a {
 
 #cardnumber {
   font-family: "Roboto";
-  padding-bottom: 20px;
 }
 
 input {
   margin-bottom: 10px;
+}
+
+.donate-values {
+  margin-top: 10px;
+  border-bottom: 2px solid gray;
 }
