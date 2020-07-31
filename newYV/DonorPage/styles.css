@@ -1,7 +1,7 @@
 :root {
   --main-bg-color: #f8f8f8;
   --main-color: #cf102e;
-  --body-text-color:#000000;
+  --body-text-color: #000000;
   --secondary-text-color: #ffffff;
   --secondary-bg-color: #000050;
   --substitute-color: #5A5B5D;
@@ -32,14 +32,97 @@ button {
 button:focus {
   color: yellow;
   outline-color: var(--secondary-bg-color);
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 li {
   list-style: none;
   color: var(--main-bg-color);
+  margin-right: 1em;
 }
 
 a {
   text-decoration: none;
+}
+
+/* Hamburger Menu*/
+
+.container {
+  padding: 20px 20px 20px 20px;
+  align-content: flex-end;
+}
+
+.menu-icon {
+  display: flex;
+  place-items: center;
+  height: 55px;
+  width: 50px;
+  position: relative;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.menu-icon>span {
+  width: 50px;
+  height: 3px;
+  background: red;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-icon:hover span:nth-child(1) {
+  width: 35px;
+}
+
+.menu-icon:hover span:nth-child(2) {
+  width: 40px;
+}
+
+.menu-icon.active span:nth-child(1) {
+  transform-origin: center center;
+  transform: rotate(-45deg) translate(-12px, 12px);
+  width: 55px;
+}
+
+.menu-icon.active span:nth-child(2) {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+  transform-origin: center center;
+  transform: rotate(45deg) translate(-15px, -14px);
+  width: 55px;
+}
+
+.menu-icon .line-1 {
+  width: 42px;
+  justify-self: end;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.menu-icon .line-2 {
+  width: 35px;
+  justify-self: end;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 35px;
+  justify-self: end;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#donor-form {
+  width: 100%;
 }
