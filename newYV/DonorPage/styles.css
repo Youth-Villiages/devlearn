@@ -138,6 +138,8 @@ h1 {
 #newsletter {
   font-family: "Roboto";
   font-size: 12px;
+  display: flex-end;
+  display: inline-block;
 }
 
 #cardnumber {
