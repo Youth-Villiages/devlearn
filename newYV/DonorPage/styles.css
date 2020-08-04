@@ -7,11 +7,18 @@
   --substitute-color: #5A5B5D;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 body {
   background-color: var(--main-bg-color);
-  font-family: "Roboto";
-  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -51,85 +58,58 @@ h1 {
   margin-left: 5%;
 }
 
-/* Hamburger Menu*/
+/*----  Nav Basics -----*/
 
-
-
-.container {
-  padding: 20px 20px 20px 20px;
-  align-content: flex-end;
-
+nav {
+  padding: 0 15px;
 }
 
-.menu-icon {
+.menu,
+.dropdown-menu {
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 22px;
+  padding: 7.5px, 10px, 7.5px, 0;
+}
+
+.item {
+  padding: 10px;
+}
+
+/*  Mobile Nav View */
+
+
+.menu {
   display: flex;
-  height: 55px;
-  place-items: center;
-  width: 50px;
-  position: relative;
-  cursor: pointer;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu-icon>span {
-  width: 50px;
-  height: 3px;
-  margin-right: 20px;
-  background: red;
+.menu li {
   display: block;
-  transition: all 0.3s ease-in-out;
-  display: flex;
-  align-self: flex-end;
+  padding: 15px;
 }
 
-.menu-icon:hover span:nth-child(1) {
-  width: 35px;
+.menu li.dropdown-item {
+  padding: 15px;
 }
 
-.menu-icon:hover span:nth-child(2) {
-  width: 40px;
-}
-
-.menu-icon.active span:nth-child(1) {
-  transform-origin: center center;
-  transform: rotate(-45deg) translate(-12px, 12px);
-  width: 55px;
-}
-
-.menu-icon.active span:nth-child(2) {
-  transform: translateX(10px);
-  opacity: 0;
-}
-
-.menu-icon.active span:nth-child(3) {
-  transform-origin: center center;
-  transform: rotate(45deg) translate(-15px, -14px);
-  width: 55px;
-}
-
-.menu-icon .line-1 {
-  width: 42px;
-  justify-self: end;
-  padding-top: 10px;
-  margin-top: 10px;
-}
-
-.menu-icon .line-2 {
-  width: 35px;
-  margin-top: 10px;
-}
-
-.menu-icon .line {
-  width: 35px;
-  margin-top: 10px;
-}
-
-.main-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.item {
+  order: 3;
   width: 100%;
+  text-align: center;
+  display: none;
 }
+
+.active .item {
+  display: block;
+}
+
+/* Dropdown Menu */
+
 
 .intro {
   padding-bottom: 2%;
@@ -148,15 +128,12 @@ h1 {
 }
 
 #newsletter {
-  font-family: "Roboto";
   font-size: 12px;
   display: flex-end;
   display: inline-block;
 }
 
-#cardnumber {
-  font-family: "Roboto";
-}
+
 
 input {
   margin-bottom: 10px;
@@ -182,6 +159,11 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.responsive {
+  height: auto;
+  width: 100%;
 }
 
 #donor-form {
