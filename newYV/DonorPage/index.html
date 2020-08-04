@@ -3,33 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <nav class="menu hamburger-menu">
-      <div class="container">
-        <div class="menu-icon">
-          <span class="line-1"></span>
-          <span class="line-2"></span>
-          <span class="line"></span>
-        </div>
-      </div>
-      <div id="logo">Youth Villages</.>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Donate</li>
+    <nav>
+      <ul class="menu">
+        <li class="logo">Youth Villages</li>
+        <li class="item">Home</li>
+        <li class="item">About</li>
+        <li class="item dropdown-menu">
+          <a tabindex="0">Services</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">Services One</li>
+            <li class="dropdown-item">Services Two</li>
+            <li class="dropdown-item">Services Three</li>
+            <li class="dropdown-item">Services Four</li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
   <div class="container">
-
       <div class="hero-image">
-        <img class="main-image"
+        <img class="responsive"
           src="https://yvstaging.wpengine.com/wp-content/uploads/2020/03/Staff-with-Youth-at-Dogwood-scaled.jpg"
           alt="Staff with youth at Dogwood">
       </div>
