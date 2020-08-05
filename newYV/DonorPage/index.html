@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
   <header>
+<<<<<<< HEAD
   <div id="logo"><img src="https://www.youthvillages.org/wp-content/uploads/2018/03/yvlogo.png" width="200"></div>
     <nav class="menu hamburger-menu">
       <ul>
@@ -16,53 +17,104 @@
         <li>About</li>
         <li>Services</li>
         <li>Donate</li>
+=======
+<nav>
+  <ul class="menu">
+    <li class="logo"><a href="#">Youth Villages</a></li>
+    <li class="item"><a href="#">Home</a></li>
+    <li class="item"><a href="#">About</a></li>
+    <li class="item has-submenu">
+      <a tabindex="0">Services</a>
+      <ul class="submenu">
+        <li class="subitem"><a href="#">Residential</a></li>
+        <li class="subitem"><a href="#">Adoption</a></li>
+        <li class="subitem"><a href="#">Foster Care</a></li>
       </ul>
-    </nav>
+    </li>
+    <li class="item has-submenu">
+      <a tabindex="0">Get Involved</a>
+      <ul class="submenu">
+        <li class="subitem"><a href="#">Events</a></li>
+        <li class="subitem"><a href="#">Mentoring</a></li>
+        <li class="subitem"><a href="#">Volunteer</a></li>
+>>>>>>> master
+      </ul>
+    </li>
+    <li class="item"><a href="#">Blog</a></li>
+    <li class="item"><a href="#">Contact</a>
+    </li>
+    <li class="item button"><a href="#">Donate</a></li>
+    <li class="item button secondary"><a href="#">Sign Up</a></li>
+    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+</nav>
   </header>
   <div class="container">
-   <div class="introcopy"> 
-     <h1>This is the Intro</h1>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
-    <div class="introimage image-cropper">
-      <img class="dogs" src="https://res.cloudinary.com/mmauck/image/upload/v1595305871/samples/animals/three-dogs.jpg" alt="dogs are way better than cats">
+      <div class="hero-image">
+        <img class="responsive"
+          src="https://yvstaging.wpengine.com/wp-content/uploads/2020/03/Staff-with-Youth-at-Dogwood-scaled.jpg"
+          alt="Staff with youth at Dogwood">
+      </div>
+    <h1>Donate</h1>
+    <p class="intro">
+      I am Groot. We are Groot. I am Groot. We are Groot. We are Groot.
+
+      I am Groot. I am Groot. We are Groot. I am Groot. I am Groot.
+
+      I am Groot. I am Groot. We are Groot. I am Groot. We are Groot.
+
+    </p>
+
+  <div class="donor-form">
+    <div class="donate-values">
+      <button>$25</button>
+      <button>$50</button>
+      <button>$75</button>
+      <button>$100</button>
+      <input type="text" id="custom" value="Custom">
     </div>
-  </div>
-  <div id="donor-form">
-    <label for="Donation Options">Donation Options</label>
-    <select name="" id="">
-        <option value="">One Time Donation</option>
-        <option value="">Weekly Donation</option>
-        <option value="">Monthly Donation</option>
-        <option value="">Yearly Donation</option>
-    </select>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <input type="text" id="custom" value="Custom">
-    <h2>Contact Info</h2>
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <h2>Payment Info</h2>
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <button></button>
-    <input type="checkbox" name="Sign Up For Monthly Newsletter" id="">
+
+    <h2 class="contact-info">Contact Info</h2>
+
+    <label for="fname">First, Last Name</label>
+    <input type="text" id="fname" name="fname">
+
+    <label for="pnumber">Phone Number</label>
+    <input type="tel" id="pnumber" name="pnumber">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <h2 class="payment-info">Payment Info</h2>
+
+    <label for="nameOncard">Name on card</label>
+    <input type="text" id="nameOncard" name="nameOncard">
+
+    <label for="cardNumber" id="cardnumber">Credit Card Number</label>
+    <input type="number" name="cardNumber">
+
+    <label for="expirationDate">Card Expiration Date</label>
+    <input type="date" id="expirationDate" name="expirationDate">
+
+    <input type="submit" value="Make Donation">
+
+    <input type="checkbox" name="Sign Up For Monthly Newsletter" id="newsletter">
+
+    <label for="Sign Up For Monthly Newsletter" id="newsletter">Sign Up For Monthly Newsletter</label>
+
     <div class="share">
       <h2>Share</h2>
-      <button>Hi</button>
-      <button></button>
-      <button></button>
-      <button></button>
-      <button></button>
+      <button>Facebook</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+      <button>Email</button>
+      <button>Text</button>
     </div>
   </div>
+  <div class="footer">
   <footer>
     <p class="footer"></p>
     <span> &copy; Youth Villages: All Rights Reserved</span>
-    <input type="email" name="Fill In Newsletter" id="">
     <div class="sitemap">
       <h4>SiteMap</h4>
       <ul>
@@ -77,6 +129,7 @@
     <a href="http://">IG</a>
     <a href="http://">Reddit</a>
   </footer>
-  <script src="index.js"></script>
+</div>
+  <script src="scripts.js"></script>
 </body>
 </html>
