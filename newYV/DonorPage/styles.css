@@ -338,3 +338,13 @@ input[type='checkbox'] {
 #donor-form {
   width: 100%;
 }
+
+#fname,
+#lname,
+#pnumber,
+#email,
+#nameOncard,
+#cardnumber,
+#expirationDate {
+  border-radius: 5px;
+}
