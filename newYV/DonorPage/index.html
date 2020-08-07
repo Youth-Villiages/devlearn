@@ -9,15 +9,6 @@
 </head>
 <body>
   <header>
-<<<<<<< HEAD
-  <div id="logo"><img src="https://www.youthvillages.org/wp-content/uploads/2018/03/yvlogo.png" width="200"></div>
-    <nav class="menu hamburger-menu">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Donate</li>
-=======
 <nav>
   <ul class="menu">
     <li class="logo"><a href="#">Youth Villages</a></li>
@@ -37,7 +28,6 @@
         <li class="subitem"><a href="#">Events</a></li>
         <li class="subitem"><a href="#">Mentoring</a></li>
         <li class="subitem"><a href="#">Volunteer</a></li>
->>>>>>> master
       </ul>
     </li>
     <li class="item"><a href="#">Blog</a></li>
@@ -67,17 +57,21 @@
 
   <div class="donor-form">
     <div class="donate-values">
-      <button>$25</button>
-      <button>$50</button>
-      <button>$75</button>
-      <button>$100</button>
-      <input type="text" id="custom" value="Custom">
+     <button class="donatebtnvalues">$25</button>
+     <button class="donatebtnvalues">$50</button>
+     <button class="donatebtnvalues">$75</button>
+     <button class="donatebtnvalues">$100</button>
+     <button class="custom">Custom</button>
+      <!--<input type="text" id="custom" value="Custom">-->
     </div>
 
     <h2 class="contact-info">Contact Info</h2>
 
-    <label for="fname">First, Last Name</label>
+    <label for="fname">First Name</label>
     <input type="text" id="fname" name="fname">
+      
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname">
 
     <label for="pnumber">Phone Number</label>
     <input type="tel" id="pnumber" name="pnumber">
@@ -90,13 +84,25 @@
     <label for="nameOncard">Name on card</label>
     <input type="text" id="nameOncard" name="nameOncard">
 
-    <label for="cardNumber" id="cardnumber">Credit Card Number</label>
-    <input type="number" name="cardNumber">
-
+    <div class="creditcardinfo">
+      
+    <div class="ccnumber">
+        <label for="cardNumber" id="cardnumber">Credit Card Number</label>
+    <input type="number" id="cardNumber" name="cardNumber">
+    </div>
+           
+     <div class="expiration">
     <label for="expirationDate">Card Expiration Date</label>
-    <input type="date" id="expirationDate" name="expirationDate">
+      <span class="expiration">
+    <input class="month" type="text" name="month" placeholder="MM" maxlength="2" size="2" />
+    <span>/</span>
+    <input class="year" type="text" name="year" placeholder="YY" maxlength="2" size="2" />
+</span>
+    <!--<input type="date" id="expirationDate" name="expirationDate">-->
+        </div>
+    </div>
 
-    <input type="submit" value="Make Donation">
+    <input class="makedonation" type="submit" value="Make Donation">
 
     <input type="checkbox" name="Sign Up For Monthly Newsletter" id="newsletter">
 

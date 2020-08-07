@@ -5,6 +5,7 @@
   --secondary-text-color: #ffffff;
   --secondary-bg-color: #000050;
   --substitute-color: #5A5B5D;
+  font-size: 16px;
 }
 
 * {
@@ -19,13 +20,11 @@
 body {
   background-color: var(--main-bg-color);
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
 }
 
 header {
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
-    
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
 }
 
 footer {
@@ -37,6 +36,10 @@ footer {
 button {
   background-color: var(--main-color);
   color: var(--secondary-text-color);
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
 }
 
 button:focus {
@@ -94,8 +97,6 @@ a {
   color: #ccc;
 }
 
-/*  Mobile Nav View */
-
 /* Mobile menu */
 .menu {
   display: flex;
@@ -134,11 +135,14 @@ a {
 }
 
 .button.secondary {
+
   /* divider between buttons and menu links */
+
   border-bottom: 1px #444 solid;
 }
 
 /* Dropdown Menu */
+
 .submenu {
   display: none;
 }
@@ -170,7 +174,10 @@ a {
   border-radius: 3px;
 }
 
+
+
 /* Tablet menu */
+
 @media all and (min-width: 700px) {
   .menu {
     justify-content: center;
@@ -193,6 +200,7 @@ a {
   }
 
   /* Button up from tablet screen */
+
   .menu li.button a {
     padding: 10px 15px;
     margin: 5px 0;
@@ -220,9 +228,19 @@ a {
     background: royalblue;
     border-color: darkblue;
   }
+    
+    .donate-values {
+     display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
 }
 
+
 /* Desktop menu */
+
 @media all and (min-width: 960px) {
   .menu {
     align-items: flex-start;
@@ -276,7 +294,8 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 5%;
+  padding: 5%;
+    margin: 0 auto;
 }
 
 #newsletter {
@@ -285,18 +304,34 @@ a {
   display: inline-block;
 }
 
-
-
 input {
   margin-bottom: 10px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%
+    
 }
 
-.donate-values {
-  margin-top: 10px;
+div.donate-values {
+  display: flex;
   border-bottom: 2px solid gray;
-  justify-self: end;
-  padding-top: 10px;
-  margin-top: 10px;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px 50px 150px; 
+    
+}
+
+button.donate-values {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.custom {
+    width: 150px;
+    font-size: 18px;
+    text-align: center
 }
 
 .line {
@@ -317,7 +352,68 @@ input {
   height: auto;
   width: 100%;
 }
+.creditcardinfo {
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap row;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.creditcardinfo > div {
+  margin: 0 10px;
+  text-align: center;
+    text-align: left;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+.ccnumber {
+    width: 55%;  
+    font-size: 16px
+}
+
+.expiration {
+    width: 45%;  
+}
+
+.month {
+    width: 45%;
+    text-align: center;
+}
+
+.year {
+    width: 45%;
+    text-align: center;
+}
+.makedonation {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
 
 #donor-form {
   width: 100%;
 }
+
+.donate-values {
+    display: flex;
+    padding-bottom: 15px;  
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 15px
+    }
+.donatebtnvalues {
+    flex-grow: 1;
+    margin-right: 10px
+}
+
+.contact-info {
+    padding: 0 0 10px 0
+}
+
+
+
+
