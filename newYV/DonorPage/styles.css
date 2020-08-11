@@ -228,13 +228,13 @@ a {
     background: royalblue;
     border-color: darkblue;
   }
-    
+
     .donate-values {
      display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
-        
+
     }
 }
 
@@ -311,15 +311,15 @@ input {
     border-radius: 3px;
     border: 1px solid #ccc;
     width: 100%
-    
+
 }
 
 div.donate-values {
   display: flex;
   border-bottom: 2px solid gray;
   justify-content: space-between;
-  grid-template-columns: 50px 50px 50px 50px 150px; 
-    
+  grid-template-columns: 50px 50px 50px 50px 150px;
+
 }
 
 button.donate-values {
@@ -358,7 +358,7 @@ button.donate-values {
     flex-flow: nowrap row;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .creditcardinfo > div {
@@ -370,12 +370,12 @@ button.donate-values {
 }
 
 .ccnumber {
-    width: 55%;  
+    width: 55%;
     font-size: 16px
 }
 
 .expiration {
-    width: 45%;  
+    width: 45%;
 }
 
 .month {
@@ -399,13 +399,13 @@ button.donate-values {
 
 .donate-values {
     display: flex;
-    padding-bottom: 15px;  
+    padding-bottom: 15px;
     flex-flow: row nowrap;
     flex-grow: 1;
     width: 100%;
     margin-bottom: 15px
     }
-.donatebtnvalues {
+.donate-btn-values {
     flex-grow: 1;
     margin-right: 10px
 }
