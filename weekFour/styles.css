@@ -8,25 +8,35 @@
     font-size: 16px;
   }
 
-  .top-header {
+  .social-nav {
     display: flex;
     justify-content: flex-end;
-
   }
   
   .social-icons {
     display: flex;
     list-style-type: none;
-    align-content: space-around;
+    margin: 0 0 10px 0; 
   }
 
-  .second-nav-bar {
+  .call-to-action-navbar {
     display:flex;
     justify-content: flex-end;
     list-style-type: none;
   }
 
-  .main-nav-bar {
+  .call-to-action-nav-btns {
     display:flex;
-    list-style-type: none; 
+    list-style-type: none;
+  }
+
+  .main-navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-navbar-btns {
+      display: flex;
+      list-style-type: none;
+      align-content: space-around;
   }
