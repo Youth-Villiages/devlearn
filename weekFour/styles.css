@@ -1,0 +1,26 @@
+:root {
+    --main-bg-color: #f8f8f8;
+    --main-color: #cf102e;
+    --body-text-color: #000000;
+    --secondary-text-color: #ffffff;
+    --secondary-bg-color: #000050;
+    --substitute-color: #5A5B5D;
+    font-size: 16px;
+  }
+
+  .social-icons {
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none; 
+  }
+
+  .second-nav-bar {
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;  
+  }
+
+  .main-nav-bar {
+    display:flex;
+    list-style-type: none; 
+  }
